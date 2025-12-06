@@ -36,14 +36,17 @@ CARRER ASPIRATION ML PROJECT/
 ```    
     
 
-⚙️ Setup (Local)
+# ⚙️ Setup (Local)
 
 1️⃣ Clone or download this project.
+
 2️⃣ Open a terminal in the project folder.
+
 3️⃣ Create & activate virtual environment:
 
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1 (# In Windows PowerShell)
+
+.\.venv\Scripts\Activate.ps1   (# In Windows PowerShell)
 
 4️⃣ Install dependencies:
 
@@ -53,31 +56,46 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
-🖥️ UI Workflow
+# 🖥️ UI Workflow
 
 1. Enter background details:
+
      Gender
+
      Part-time job (Yes/No)
+
      Extracurricular activities (Yes/No)
+
      Absence days
+
      Weekly self-study hours
+
 2. Enter subject scores (Math, Physics, Chemistry, etc.)
 3. Click "Predict Career".
 4. The app will show a predicted career aspiration such as:
 
    🎯Predicted Career Aspiration: Software Engineer
 
-🧩 Tech Stack
 
-Python
+# 🧩 Tech Stack
+
+Python,
+
 Pandas, NumPy
+
 scikit-learn (LabelEncoder, StandardScaler, RandomForestClassifier)
+
 Streamlit – for the interactive web interface
+
 Jupyter Notebook – for experimentation & EDA   
 
-🚀 Future Enhancements
+
+# 🚀 Future Enhancements
 
 Add career recommendation charts based on score distributions
+
 Add explanation (SHAP values) for prediction transparency
+
 Deployment to Streamlit Cloud / AWS / Azure
+
 Add login system for student profiles
