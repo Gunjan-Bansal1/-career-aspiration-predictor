@@ -13,7 +13,7 @@ This project is built entirely in **Python + Streamlit**, using a trained Random
 
 ## 🧱 Project Structure
 
-
+```text
 CARRER ASPIRATION ML PROJECT/
 │── app.py                 # Streamlit web app (main entry)
 │── requirements.txt       # Python dependencies
@@ -32,6 +32,8 @@ CARRER ASPIRATION ML PROJECT/
 │
 └── src/
     ├── __init__.py
+
+```    
     
 
 ⚙️ Setup (Local)
@@ -41,14 +43,13 @@ CARRER ASPIRATION ML PROJECT/
 3️⃣ Create & activate virtual environment:
 
 python -m venv .venv
-# Windows PowerShell
-.\.venv\Scripts\Activate.ps1
+.\.venv\Scripts\Activate.ps1 (# In Windows PowerShell)
 
 4️⃣ Install dependencies:
 
 pip install -r requirements.txt
 
-5. Run Streamlit app
+5️⃣ Run Streamlit app
 
 streamlit run app.py
 
